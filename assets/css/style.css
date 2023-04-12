@@ -160,6 +160,33 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  padding-top:1.5em;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.logo-text h6 {
+  padding-top: 1em;
+  margin-top: 5px;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #160072;
+}
+
+.logo-text2 h6 {
+  padding-top: 0.5em;
+  margin-top: 5px;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #160072;
 }
 
 .header.header-scrolled {
